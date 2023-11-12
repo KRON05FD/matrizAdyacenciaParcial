@@ -30,7 +30,7 @@ class MatrizDeAdyacencia {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = i + 1; j < matriz[i].length; j++) {
                 if (matriz[i][j] == 1) {
-                    System.out.println("( " + i + ", " + j + ")");
+                    System.out.println("(" + i + ", " + j + ")");
                 }
             }
         }
